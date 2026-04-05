@@ -22,18 +22,28 @@
 ```bash
 git clone https://github.com/Redfreet/Finance-Dashboard.git
 cd Backend
+```
 
 **2. Install dependencies**
+
+```bash
 npm install
+```
 
 **3. Configure Environment Variables**
 Create .env in root folder
+
+```bash
 PORT=3030
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_key
+```
 
 **4. Start the server**
+
+```bash
 npm run dev
+```
 
 ## Assumptions Made
 
@@ -41,13 +51,15 @@ npm run dev
 
 ## Tradeoffs
 
+```bash
+
 **Tradeoff:** SQL provides strict ACID compliance which is traditionally preferred for financial ledgers.
 **Decision:** MongoDB was chosen because this application functions primarily as an analytical dashboard and expense tracker rather than a live payment gateway.
 
 **Tradeoff:** No global error handler.
 **Decision:** Handled errors locally within controller try/catch blocks to prioritize readability and rapid development with error codes.
+```
 
 ## API Documentation
 
 I have added postman collection in root folder which contains all APIs.
-```
