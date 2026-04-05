@@ -2,9 +2,9 @@
 
 ## Tech Stack
 
-**Backend:** Node.js, Express.js
-**Database:** MongoDB
-**Authentication:** JSON Web Tokens (JWT) & bcryptjs
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Authentication:** JSON Web Tokens (JWT) & bcryptjs
 
 ## Core Features
 
@@ -18,6 +18,8 @@
 ## Local Setup Instructions
 
 **1. Clone the repository**
+
+```bash
 git clone https://github.com/Redfreet/Finance-Dashboard.git
 cd Backend
 
@@ -48,3 +50,4 @@ npm run dev
 ## API Documentation
 
 I have added postman collection in root folder which contains all APIs.
+```
